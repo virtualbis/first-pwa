@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const About = lazy(() => import("./About"));
 const Home = lazy(() => import("./Home"));
 
-const App: React.FC = () => (
+// Don't use this anymore for TS. "const App: React.FC = () => (" seen in plenty of tutorials.
+const App = () => (
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
       <nav>

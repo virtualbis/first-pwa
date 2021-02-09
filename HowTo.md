@@ -2,7 +2,7 @@
 
 - Create new folder for app in VS Code
 - Create app with template for PWA `npx create-react-app first-pwa --template cra-template-pwa`
-- If you want a Typescript compatible app use this template `npx create-react-app pwa-react-typescript --template typescript`
+- If you want a Typescript compatible app use this template `npx create-react-app pwa-react-typescript --template typescript` or go here: https://create-react-app.dev/docs/adding-typescript/.
 - Register a Service Worker in index.js. From `serviceWorkerRegistration.unregister();` to `serviceWorkerRegistration.register();`
 - Make sure the manifest is in the index.html. It should have been generated with the template. It looks like this: `<link rel="manifest" href="/manifest.json">`.
 - While you're in the index.html file rename your app here `<title>React App</title>`

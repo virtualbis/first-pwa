@@ -1,0 +1,2 @@
+(this["webpackJsonpfirst-pwa"]=this["webpackJsonpfirst-pwa"]||[]).push([[4],{30:function(t,s,e){"use strict";e.r(s);e(0);var r=e(2);s.default=function(){return Object(r.jsx)("h1",{children:"Welcome to your PWA!"})}}}]);
+//# sourceMappingURL=4.3c85efd1.chunk.js.map
